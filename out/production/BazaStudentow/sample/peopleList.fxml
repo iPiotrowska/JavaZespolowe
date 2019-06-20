@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerPeopleList">
+<AnchorPane prefHeight="400.0" prefWidth="464.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerPeopleList">
    <children>
-      <Label fx:id="peopleList" layoutX="3.0" layoutY="4.0" prefHeight="386.0" prefWidth="591.0"  />
+      <TableView fx:id="tab" layoutX="-7.0" prefHeight="400.0" prefWidth="464.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+           <TableColumn prefWidth="75.0" text="Id"> <cellValueFactory><PropertyValueFactory property="id" /></cellValueFactory></TableColumn>
+           <TableColumn prefWidth="100.0" text="Imię"> <cellValueFactory><PropertyValueFactory property="firstName" /></cellValueFactory></TableColumn>
+           <TableColumn prefWidth="100.0" text="Nazwisko"> <cellValueFactory><PropertyValueFactory property="lastName" /></cellValueFactory></TableColumn>
+           <TableColumn prefWidth="100.0" text="Telefon"> <cellValueFactory><PropertyValueFactory property="phone" /></cellValueFactory></TableColumn>
+        </columns>
+      </TableView>
    </children>
 </AnchorPane>
