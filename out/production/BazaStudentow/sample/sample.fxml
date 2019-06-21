@@ -12,12 +12,13 @@
          <font>
             <Font size="14.0" />
          </font></Label>
-      <Button fx:id="zapisz" layoutX="21.0" layoutY="239.0" mnemonicParsing="false" onAction="#addPerson" text="Zapisz" />
+      <Button fx:id="zapisz" layoutX="23.0" layoutY="231.0" mnemonicParsing="false" onAction="#addPerson" prefHeight="31.0" prefWidth="90.0" text="Zapisz" />
       <TextField fx:id="imie" layoutX="23.0" layoutY="43.0" />
       <TextField fx:id="nazwisko" layoutX="23.0" layoutY="117.0" />
       <Label layoutX="23.0" layoutY="14.0" text="Imie" />
       <Label layoutX="23.0" layoutY="88.0" text="Nazwisko" />
       <TextField fx:id="telefon" layoutX="23.0" layoutY="185.0" />
       <Label layoutX="23.0" layoutY="157.0" text="Telefon" />
+      <Button fx:id="wstecz" layoutX="117.0" layoutY="231.0" mnemonicParsing="false" onAction="#back" prefHeight="31.0" prefWidth="90.0" text="Wstecz" />
    </children>
 </AnchorPane>

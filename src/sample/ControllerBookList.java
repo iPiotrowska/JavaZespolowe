@@ -2,6 +2,7 @@ package sample;
 
 import javafx.scene.control.TableView;
 
+import javafx.scene.layout.AnchorPane;
 import polaczenie.KlasaPolaczenie;
 
 import java.sql.Connection;
@@ -10,20 +11,20 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 
-public class ControllerPeopleList {
+public class ControllerBookList {
     public TableView tab;
-
+    public AnchorPane pane;
 
     public void initialize() throws SQLException {
         KlasaPolaczenie kp = new KlasaPolaczenie();
         Connection baza = kp.dajPolaczenie();
         ResultSet rs=null;
 
-        String sql = "Select * FROM OSOBY  ";
-
+        String sql = "Select k.id_ksiazki, k.tytul,k.autor,DATE_FORMAT(k.data_wypozyczenia, '%d-%m-%Y'),CONCAT(o.imie,' ',o.nazwisko) FROM KSIAZKI k LEFT JOIN OSOBY o ON(k.id_osoby=o.id_osoby)";
+        System.out.println(sql);
         try {
             Statement stat = baza.createStatement();
-          rs=stat.executeQuery(sql);
+            rs=stat.executeQuery(sql);
         } catch (SQLException e) {
             e.printStackTrace();
             System.out.println("Blad polecenia sql");
@@ -31,11 +32,12 @@ public class ControllerPeopleList {
 
         while(rs.next()) {
             int id = rs.getInt(1);
-            String imie = rs.getString(2);
-            String nazwisko = rs.getString(3);
-            int telefon = rs.getInt(4);
-            Person person = new Person(id, imie, nazwisko, telefon);
-            tab.getItems().add(person);
+            String title = rs.getString(2);
+            String author = rs.getString(3);
+            String date = rs.getString(4);
+            String person = rs.getString(5);
+            Book book = new Book(id,title,author,date,person);
+            tab.getItems().add(book);
         }
 
     }

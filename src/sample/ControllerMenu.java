@@ -3,15 +3,10 @@ package sample;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
-import polaczenie.KlasaPolaczenie;
+
 
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.sql.Statement;
 
 public class ControllerMenu {
     public Button addPerson;
@@ -36,8 +31,9 @@ public class ControllerMenu {
         rootPane.getChildren().setAll(pane);
     }
 
-    public void bookList(ActionEvent actionEvent) {
-
+    public void bookList(ActionEvent actionEvent) throws IOException {
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("bookList.fxml"));
+        rootPane.getChildren().setAll(pane);
     }
 
 }

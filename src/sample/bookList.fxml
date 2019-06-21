@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pane" prefHeight="400.0" prefWidth="577.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerBookList">
+    <children>
+        <TableView fx:id="tab" layoutX="-7.0" prefHeight="400.0" prefWidth="577.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <columns>
+                <TableColumn prefWidth="49.0" text="Id"> <cellValueFactory><PropertyValueFactory property="id" /></cellValueFactory></TableColumn>
+                <TableColumn prefWidth="138.0" text="Tytuł"> <cellValueFactory><PropertyValueFactory property="title" /></cellValueFactory></TableColumn>
+                <TableColumn prefWidth="124.0" text="Autor"> <cellValueFactory><PropertyValueFactory property="author" /></cellValueFactory></TableColumn>
+                <TableColumn prefWidth="144.0" text="Data wypożyczenia"> <cellValueFactory><PropertyValueFactory property="date" /></cellValueFactory></TableColumn>
+                <TableColumn prefWidth="123.0" text="Osoba"> <cellValueFactory><PropertyValueFactory property="person" /></cellValueFactory></TableColumn>
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
