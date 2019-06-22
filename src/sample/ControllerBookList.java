@@ -1,10 +1,13 @@
 package sample;
 
+import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.control.TableView;
 
 import javafx.scene.layout.AnchorPane;
 import polaczenie.KlasaPolaczenie;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -13,7 +16,7 @@ import java.sql.Statement;
 
 public class ControllerBookList {
     public TableView tab;
-    public AnchorPane pane;
+    public AnchorPane anc;
 
     public void initialize() throws SQLException {
         KlasaPolaczenie kp = new KlasaPolaczenie();
@@ -42,4 +45,8 @@ public class ControllerBookList {
 
     }
 
+    public void backToMenu(ActionEvent actionEvent) throws IOException {
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("menu.fxml"));
+        anc.getChildren().setAll(pane);
+    }
 }

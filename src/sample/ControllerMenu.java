@@ -36,4 +36,8 @@ public class ControllerMenu {
         rootPane.getChildren().setAll(pane);
     }
 
+    public void borrowBook(ActionEvent actionEvent) throws IOException {
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("borrowBook.fxml"));
+        rootPane.getChildren().setAll(pane);
+    }
 }

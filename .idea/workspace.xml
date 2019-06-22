@@ -2,27 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/ControllerBookList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/bookList.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/ControllerBorrowBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/borrowBook.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BazaStudentow/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BazaStudentow/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BazaStudentow/sample/ControllerAddBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BazaStudentow/sample/ControllerAddBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BazaStudentow/sample/ControllerMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BazaStudentow/sample/ControllerMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BazaStudentow/sample/ControllerPeopleList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BazaStudentow/sample/ControllerPeopleList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BazaStudentow/sample/addBook.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BazaStudentow/sample/addBook.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BazaStudentow/sample/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BazaStudentow/sample/menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BazaStudentow/sample/peopleList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BazaStudentow/sample/peopleList.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BazaStudentow/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BazaStudentow/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ControllerAddBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ControllerAddBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BazaStudentow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Biblioteka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BazaStudentow/polaczenie/KlasaPolaczenie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BazaStudentow/sample/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BazaStudentow/sample/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BazaStudentow/sample/ControllerAddBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BazaStudentow/sample/ControllerBookList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BazaStudentow/sample/ControllerMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BazaStudentow/sample/ControllerPeopleList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BazaStudentow/sample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BazaStudentow/sample/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/ControllerBookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ControllerBookList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/ControllerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ControllerMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/ControllerPeopleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ControllerPeopleList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/addBook.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/addBook.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/bookList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/bookList.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/menu.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/peopleList.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/peopleList.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -133,101 +134,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/peopleList.fxml">
+        <entry file="file://$PROJECT_DIR$/src/sample/borrowBook.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="14" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="17" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/bookList.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ControllerBookList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ControllerPeopleList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/menu.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="106" selection-start-line="10" selection-start-column="106" selection-end-line="10" selection-end-column="106" />
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="91" selection-start-line="11" selection-start-column="91" selection-end-line="11" selection-end-column="91" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ControllerMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="57" />
+              <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ControllerBorrowBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -255,29 +197,31 @@
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/src/polaczenie/KlasaPolaczenie.java" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/Person.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/sample/ControllerAddBook.java" />
         <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
         <option value="$PROJECT_DIR$/src/sample/addBook.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/peopleList.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ControllerPeopleList.java" />
         <option value="$PROJECT_DIR$/src/sample/ContollerBookList.java" />
         <option value="$PROJECT_DIR$/src/sample/Book.java" />
-        <option value="$PROJECT_DIR$/src/sample/ControllerMenu.java" />
-        <option value="$PROJECT_DIR$/src/sample/menu.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ControllerBookList.java" />
+        <option value="$PROJECT_DIR$/src/sample/peopleList.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ControllerPeopleList.java" />
         <option value="$PROJECT_DIR$/src/sample/bookList.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ControllerBookList.java" />
+        <option value="$PROJECT_DIR$/src/sample/menu.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ControllerMenu.java" />
+        <option value="$PROJECT_DIR$/src/sample/ControllerBorrowBook.java" />
+        <option value="$PROJECT_DIR$/src/sample/borrowBook.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2228" />
-    <option name="y" value="-26" />
-    <option name="width" value="1292" />
-    <option name="height" value="704" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -288,44 +232,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="BazaStudentow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Biblioteka" type="b2602c69:ProjectViewProjectNode" />
               <item name="BazaStudentow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BazaStudentow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Biblioteka" type="b2602c69:ProjectViewProjectNode" />
               <item name="BazaStudentow" type="462c0819:PsiDirectoryNode" />
               <item name="biblioteka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BazaStudentow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Biblioteka" type="b2602c69:ProjectViewProjectNode" />
               <item name="BazaStudentow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BazaStudentow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Biblioteka" type="b2602c69:ProjectViewProjectNode" />
               <item name="BazaStudentow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="polaczenie" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BazaStudentow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Biblioteka" type="b2602c69:ProjectViewProjectNode" />
               <item name="BazaStudentow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BazaStudentow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Biblioteka" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -344,7 +288,7 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Desktop/Library-Assistant-master" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -388,7 +332,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
-      <module name="BazaStudentow" />
+      <module name="Biblioteka" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -456,16 +400,18 @@
       <workItem from="1560544771930" duration="37000" />
       <workItem from="1561037851898" duration="17904000" />
       <workItem from="1561135459273" duration="6576000" />
+      <workItem from="1561150949383" duration="1558000" />
+      <workItem from="1561190068211" duration="4833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29876000" />
+    <option name="totallyTimeSpent" value="36267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.1988273" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20362474" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -494,7 +440,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="JetGradle" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.15637584" />
+      <window_info anchor="right" id="Database" order="4" weight="0.15618336" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Maven" order="7" />
@@ -594,16 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ControllerAddBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
@@ -612,64 +548,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ContollerBookList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/addBook.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/peopleList.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ControllerPeopleList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ControllerMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ContollerBookList.java" />
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/control/Button.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -684,50 +563,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/menu.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="106" selection-start-line="10" selection-start-column="106" selection-end-line="10" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ControllerBookList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="51">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Biblioteka.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/addBook.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/peopleList.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="86" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ControllerPeopleList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="49" column="39" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="49" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -735,8 +621,71 @@
     <entry file="file://$PROJECT_DIR$/src/sample/bookList.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ControllerBookList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ControllerAddBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="43" column="39" selection-start-line="42" selection-start-column="8" selection-end-line="43" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ControllerMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="39" column="76" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/borrowBook.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/menu.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="91" selection-start-line="11" selection-start-column="91" selection-end-line="11" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ControllerBorrowBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -757,6 +706,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -791,7 +741,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>BazaStudentow</last-edited>
+          <last-edited>Biblioteka</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
