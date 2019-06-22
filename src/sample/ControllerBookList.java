@@ -1,5 +1,6 @@
 package sample;
 
+import Models.Book;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.TableView;

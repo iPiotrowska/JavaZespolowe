@@ -1,12 +1,12 @@
 package sample;
 
+import Models.Person;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.TableView;
 
 import javafx.scene.layout.AnchorPane;
 import polaczenie.KlasaPolaczenie;
 
-import java.awt.event.ActionEvent;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.ResultSet;
