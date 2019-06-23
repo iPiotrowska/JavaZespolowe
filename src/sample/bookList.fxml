@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="anc"  prefHeight="600" prefWidth="600" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerBookList">
+<AnchorPane fx:id="anc" prefHeight="600" prefWidth="600" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerBookList">
     <children>
         <TableView fx:id="tab" layoutY="33.0" prefHeight="600.0" prefWidth="600.0" AnchorPane.bottomAnchor="-33.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="33.0">
             <columns>
@@ -19,12 +19,13 @@
                 <TableColumn prefWidth="130.0" text="Osoba"> <cellValueFactory><PropertyValueFactory property="person" /></cellValueFactory></TableColumn>
             </columns>
         </TableView>
-        <Button fx:id="back" layoutY="1.0" mnemonicParsing="false" onAction="#backToMenu" prefHeight="29.0" prefWidth="127.0" text="Wstecz" />
-      <Label layoutX="200.0" layoutY="-4.0" prefHeight="39.0" prefWidth="202.0" text="Spis książek">
+        <Button fx:id="back" layoutY="1.0" mnemonicParsing="false" onAction="#backToMenu" prefHeight="31.0" prefWidth="110.0" text="Wstecz" />
+      <Label layoutX="282.0" layoutY="-3.0" prefHeight="39.0" prefWidth="202.0" text="Spis książek">
          <font>
             <Font name="Arial Black" size="20.0" />
          </font>
       </Label>
+      <Button fx:id="delete" layoutX="127.0" layoutY="1.0" mnemonicParsing="false" onAction="#deleteBook" prefHeight="31.0" prefWidth="110.0" text="Usuń" />
 
     </children>
 

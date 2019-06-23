@@ -44,9 +44,35 @@ public class ControllerBookList {
             tab.getItems().add(book);
         }
 
+    }
+
+    public void deleteBook(ActionEvent actionEvent) throws IOException {
+
+        TableView<Book> taview=tab;
+        Object selectedItems = taview.getSelectionModel().getSelectedItem();
+        Book selectedBook = (Book) selectedItems;
+        System.out.println(selectedBook.getId());
+
+        int bookId=selectedBook.getId();
+
+        //Połączenie z bazą
+        KlasaPolaczenie kp = new KlasaPolaczenie();
+        Connection baza = kp.dajPolaczenie();
+
+        String sql = "DELETE FROM osoby WHERE id_osoby="+bookId;
+
+        System.out.println(sql);
+        try {
+            Statement stat = baza.createStatement();
+            stat.execute(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            System.out.println("Blad polecenia sql");
+        }
 
 
     }
+
 
     public void backToMenu(javafx.event.ActionEvent actionEvent) throws IOException {
         AnchorPane pane = FXMLLoader.load(getClass().getResource("menu.fxml"));

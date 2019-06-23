@@ -36,7 +36,7 @@ public class ControllerBorrowBook {
         Connection baza = kp.dajPolaczenie();
         ResultSet rs=null;
 
-        String sql = "Select k.id_ksiazki, k.tytul,k.autor,DATE_FORMAT(k.data_wypozyczenia, '%d-%m-%Y'),CONCAT(o.imie,' ',o.nazwisko) FROM KSIAZKI k LEFT JOIN OSOBY o ON(k.id_osoby=o.id_osoby)";
+        String sql = "Select k.id_ksiazki, k.tytul,k.autor FROM KSIAZKI k WHERE k.id_osoby is null"; //,DATE_FORMAT(k.data_wypozyczenia, '%d-%m-%Y'),CONCAT(o.imie,' ',o.nazwisko)
         System.out.println(sql);
         try {
             Statement stat = baza.createStatement();
@@ -50,8 +50,10 @@ public class ControllerBorrowBook {
             int id = rs.getInt(1);
             String title = rs.getString(2);
             String author = rs.getString(3);
-            String date = rs.getString(4);
-            String person = rs.getString(5);
+            String date=null;
+                   // date = rs.getString(4);
+            String person =null;
+                    // person= rs.getString(5);
             Book book = new Book(id,title,author,date,person);
             tab.getItems().add(book);
         }
@@ -115,10 +117,9 @@ public class ControllerBorrowBook {
             System.out.println("Blad polecenia sql");
         }
 
-
-
-
     }
+
+
 
     public void backToMenu(ActionEvent actionEvent) throws IOException {
         AnchorPane pane = FXMLLoader.load(getClass().getResource("menu.fxml"));

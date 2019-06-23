@@ -1,6 +1,8 @@
 package sample;
 
+import Models.Book;
 import Models.Person;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.TableView;
 
@@ -42,6 +44,33 @@ public class ControllerPeopleList {
             Person person = new Person(id, imie, nazwisko, telefon);
             tab.getItems().add(person);
         }
+
+    }
+
+    public void deletePerson(ActionEvent actionEvent) throws IOException {
+
+        TableView<Book> taview=tab;
+        Object selectedItems = taview.getSelectionModel().getSelectedItem();
+        Person selectedPerson = (Person) selectedItems;
+        System.out.println(selectedPerson.getId());
+
+        int personId=selectedPerson.getId();
+
+        //Połączenie z bazą
+        KlasaPolaczenie kp = new KlasaPolaczenie();
+        Connection baza = kp.dajPolaczenie();
+
+        String sql = "DELETE FROM osoby WHERE id_osoby="+personId;
+
+        System.out.println(sql);
+        try {
+            Statement stat = baza.createStatement();
+            stat.execute(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            System.out.println("Blad polecenia sql");
+        }
+
 
     }
 

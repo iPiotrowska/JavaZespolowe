@@ -69,7 +69,6 @@ public class ControllerReturnBook {
             System.out.println("Blad polecenia sql");
         }
 
-        tab.refresh();
 
     }
 

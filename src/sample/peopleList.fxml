@@ -10,7 +10,7 @@
 
 <AnchorPane fx:id="anc" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerPeopleList">
    <children>
-      <TableView fx:id="tab" layoutY="31.0" prefHeight="600.0" prefWidth="600.0" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="40.0">
+      <TableView fx:id="tab" layoutY="41.0" prefHeight="559.0" prefWidth="600.0" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="41.0">
         <columns>
            <TableColumn prefWidth="50.0" text="Id"> <cellValueFactory><PropertyValueFactory property="id" /></cellValueFactory></TableColumn>
            <TableColumn prefWidth="200.0" text="Imię"> <cellValueFactory><PropertyValueFactory property="firstName" /></cellValueFactory></TableColumn>
@@ -18,11 +18,12 @@
            <TableColumn prefWidth="150.0" text="Telefon"> <cellValueFactory><PropertyValueFactory property="phone" /></cellValueFactory></TableColumn>
         </columns>
       </TableView>
-      <Button fx:id="back" prefHeight="40" prefWidth="70" mnemonicParsing="false" text="Wstecz" onAction="#backToMenu" />
+      <Button fx:id="back" mnemonicParsing="false" onAction="#backToMenu" prefHeight="40" prefWidth="70" text="Wstecz" />
       <Label layoutX="200.0" layoutY="-3.0" prefHeight="40.0" prefWidth="190.0" text="Lista osób">
          <font>
             <Font name="Arial Black" size="20.0" />
          </font>
       </Label>
+      <Button fx:id="delete" layoutX="89.0" mnemonicParsing="false" onAction="#deletePerson" prefHeight="40" prefWidth="70" text="Usuń" />
    </children>
 </AnchorPane>
