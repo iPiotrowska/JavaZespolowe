@@ -13,7 +13,9 @@ public class ControllerMenu {
     public Button addBook;
     public Button peopleList;
     public Button bookList;
+    public Button returnBook;
     public AnchorPane rootPane;
+
 
 
     public void addPerson(ActionEvent actionEvent) throws IOException {
@@ -38,6 +40,10 @@ public class ControllerMenu {
 
     public void borrowBook(ActionEvent actionEvent) throws IOException {
         AnchorPane pane = FXMLLoader.load(getClass().getResource("borrowBook.fxml"));
+        rootPane.getChildren().setAll(pane);
+    }
+    public void returnBook(ActionEvent actionEvent) throws IOException {
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("returnBook.fxml"));
         rootPane.getChildren().setAll(pane);
     }
 }

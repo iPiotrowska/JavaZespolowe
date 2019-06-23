@@ -10,5 +10,6 @@
       <Button fx:id="peopleList" layoutY="200.0" mnemonicParsing="false" onAction="#peopleList" prefHeight="200.0" prefWidth="300.0" text="Spis osób" />
       <Button fx:id="bookList" layoutX="300.0" layoutY="200.0" mnemonicParsing="false" onAction="#bookList" prefHeight="200.0" prefWidth="300.0" text="Spis książek" />
       <Button fx:id="borrowBook" layoutY="400.0" mnemonicParsing="false" onAction="#borrowBook" prefHeight="200.0" prefWidth="300.0" text="Wypożycz" />
+      <Button fx:id="returnBook" layoutX="300.0" layoutY="400.0" mnemonicParsing="false"  onAction="#returnBook" prefHeight="200.0" prefWidth="300.0" text="Zwróć" />
    </children>
 </AnchorPane>

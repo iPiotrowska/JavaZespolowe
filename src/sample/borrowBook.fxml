@@ -42,7 +42,7 @@
          <children>
             <TableView fx:id="tab2" layoutX="14.0" prefHeight="300.0" prefWidth="575.0" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="0.0">
                <columns>
-                  <TableColumn prefWidth="50.0" text="Id">
+                  <TableColumn id="idOsoby" prefWidth="50.0" text="Id">
                      <cellValueFactory>
                         <PropertyValueFactory property="id" />
                      </cellValueFactory>
@@ -66,6 +66,7 @@
             </TableView>
          </children>
       </AnchorPane>
+      <Button fx:id="borrow" layoutX="168.0" layoutY="14.0" mnemonicParsing="false" onAction="#borrowBook" prefHeight="40.0" prefWidth="137.0" text="Wypożycz" />
       
    </children>
 </AnchorPane>

@@ -33,5 +33,7 @@ public class Person {
     private SimpleStringProperty lastName;
     private SimpleIntegerProperty phone;
 
-
+    public SimpleIntegerProperty idProperty() {
+        return id;
+    }
 }
